@@ -1,0 +1,289 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brandon's Personal Porfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c94df98afd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id = "header">
+    <div class="container">
+        <nav>   
+            <img src="images/logo.jpeg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Comp Sci Student looking for jobs</p>
+            <h1>Hi, I'm <span>Brandon</span><br> Cazares from CSULB</h1>
+        </div>
+    <div> 
+</div>
+<!-- ----------about-------- -->
+<div id="about">
+    <div class="container">
+        <div class="row"> 
+            <div class="about-col-1"></div>
+            <img src="images/user.jpeg"> 
+        </div>
+        <div class="about-col-2">
+            <h1 class = "sub-title">About Me</h1>
+            <p>I am a student studying Computer Science at California State University Long Beach. I am
+                actively looking for internships and job opportunities in the tech industry. I have a passion for coding,
+                enjoy working on projects that challenge my skills and having ideas towards my creativity.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            </div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                    <li><span>Algorithms</span><br>Excellent time management skills</li>
+                    <li><span>Strong typing skills</span><br>Billingual- Both English and Spanish</li>
+                    <li><span>Python</span><br>JavaScript</li>
+                    <li><span>HTML</span><br>C++</li>
+                </ul>
+            </div>   
+            <div class= "tab-contents" id='experience'>
+                <ul>
+                    <li><span>May 2023 - Aug 2023</span><br>Construction Worker at Alex Nuno & Associates</li>
+                    <li><span>Jan 2021 - Aug 2021</span><br>Whole Foods Market Shopper at Amazon</li>
+                    <li><span>Jul 2019 - Aug 2019</span><br>Intern at Peak Training Institute</li>
+                    <li><span>Jun 2018 - Jul 2018</span><br>Volunteer at Remita Health</li>
+                </ul>
+            </div>
+            <div class= "tab-contents" id='education'>
+                <ul>
+                    <li><span>Aug 2019 - Present</span><br>California State Univeristy Long Beach</li>
+                    <li><span>Aug 2015 - May 2019</span><br>Warren High School</li>
+                </ul>
+            </div>
+        <div>     
+    </div>
+</div>
+<!------------interests------------ -->
+<div id="interests">
+    <div class="container">
+        <h1 class = "sub-title">My Interests</h1>
+       <div class="interests-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p> I am creating this website because I am highly interested to do web design, 
+                    and have a high interest in software engineering.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>AI</h2>
+                <p> I am creating this website because I am highly interested in AI, 
+                    and have a high interest in software engineering.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-apple"></i>
+                <h2>App Design</h2>
+                <p> I am creating this website because I am highly interested to do app design, 
+                    and have a high interest in software engineering.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+<!-- ----------portfolio------------ -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src ="images/work1.png">
+                <div class="layer">
+                    <h3>EATS Website</h3>
+                    <p>This website connects you to CSULB Computer Engineering majors.
+                    Here's their homepage.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src ="images/work2.png">
+                <div class="layer">
+                    <h3>EATS Setup</h3>
+                    <p>This setup was one of my senior project images and I used it for my group files.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src ="images/work3.png">
+                <div class="layer">
+                    <h3>EATS Website Meeting Sign Up Form</h3>
+                    <p>This QR code has a link with a sign up form to join the club. 
+                    We asked the EATS officers for permission to use this.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src ="images/work4.png">
+                <div class="layer">
+                    <h3>Dynamic Networks Group Project Introudction Slide</h3>
+                    <p>I created a presentation with my group for our Dynamic Networks class.
+                    This is my first introduction slide.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src ="images/work5.png">
+                <div class="layer">
+                    <h3>Dynamic Networks Group Project Introduction Slide 2</h3>
+                    <p>This slide talks about worm propogation in dynamic networks.
+                        This is my second introduction slide.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src ="images/work6.png">
+                <div class="layer">
+                    <h3>Motivation slide</h3>
+                    <p>This slide discusses network complexity.
+                        Network complexity impacts many sectors.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src ="images/work7.png">
+                <div class="layer">
+                    <h3>Why it Matters Slide</h3>
+                    <p>This slide talks about why both worms and network will lead to a fallout. 
+                    This is critical to understand.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src ="images/work8.png">
+                <div class="layer">
+                    <h3>Notation Slide</h3>
+                    <p>This slide mentions notation of dynamic networks. 
+                    This is critical to understand.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src ="images/work9.png">
+                <div class="layer">
+                    <h3>Solution Slide</h3>
+                    <p>This slide has a solution to our worm spread targets. 
+                    These high degree nodes are topologies.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src ="images/work10.png">
+                <div class="layer">
+                    <h3>Solution Slide 2</h3>
+                    <p>This second slide talks about how infection could affect networks. 
+                    Simulations indicate how both SIS and SIR models determine outbreaks.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src ="images/work11.png">
+                <div class="layer">
+                    <h3>Conclusion Slide</h3>
+                    <p>This slide mentions topology, node clustering and resilient networks. 
+                    Worm spread can improve our worst-case designs to predict outbreaks.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+ </div>
+<!----------contact-------------- --> 
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>dunskey01@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>3233031331</p>
+                <div class="social-icons">
+                    <a href="https://github.com/BraJCaz"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/brandon-c-647b64148/"><i class="fa-brands fa-linkedin"></i></a> 
+                </div>
+                <a href="images/my-cv.pdf" class="btn btn2">Download My Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Brandon. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+   
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwVWyq02iPOA4yNHafoHrhTQQRWg_5c1w5iRCUlcmd926BmkI0garRNxhdzlLwOZqHX6w/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+  </script>
+</body>
+</html>
